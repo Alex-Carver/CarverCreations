@@ -1,0 +1,1068 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+
+/* Colors ----------
+
+light blue - #00adb4 
+
+dark blue - #233140
+
+light-gray #d7d9d8
+*/
+.loadme{
+  background:#000;
+  height: 500px;
+  width: 100%;
+}
+#maincontent{
+  height: 510px;
+  z-index: 100;
+  padding-top:275px;
+}
+  .typewrite{
+  width: 100%;
+  padding-top: 0;
+}
+
+.hire{
+  margin-top: -3%!important;
+}
+
+  .intro-text{
+    padding: 0!important;
+    margin: 0!important;
+  }
+
+
+  .hire-container{
+
+  padding-top: s0%;
+}
+
+.container-button{
+  padding:0;
+  margin:0;
+  height: 100px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    opacity: .5;
+    text-align: center;
+      position: relative;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+
+.hire-text{
+  color: #fff;
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin:0;
+
+}
+
+.hire-text:hover{
+  color: #233140;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+
+}
+
+
+
+
+
+svg#layer_1{
+  z-index: -1;
+}
+
+
+/*----------------No Animate Css on Mobile and Tablets--------*/
+
+@media only screen and (max-width : 768px) {
+ .os-animation {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+} 
+
+
+/*------------------Basic + Nav + Sections--------------*/
+
+* { text-decoration: none;
+
+}
+
+div{
+	display: block;
+}
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+
+}
+
+div#maincontent {
+  outline: none;
+}
+
+ .container:after, .row:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+  border-style: none;
+}
+
+section {
+  padding: 50px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+h1{
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  margin-top: 0%;
+  padding: 0 3% 0 3%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+p {
+  font-size: 20px;
+  padding: 3%;
+  color: #233140;
+  margin-bottom: 25px;
+}
+p.small {
+  font-size: 16px;
+}
+
+/*------------------Basic Media Queries---------*/
+@media only screen and (max-width : 768px){
+    .showcase-tags{
+    text-align: left;
+    padding-left: 3%;
+
+  }
+#maincontent{
+  height: 700px;
+}  
+}
+
+
+@media (max-width: 480px){
+  #maincontent{
+  height: 450px;
+}  
+}
+
+
+@media (max-width: 480px){
+  p.work{
+    text-align: left;
+  }
+  .work-email{
+    text-align: center!important;
+  }
+  .showcase-tags{
+    text-align: left;
+  }
+  h2.work-title{
+    font-size: 2.8em;
+  }
+
+}
+
+
+/*--------------------Buttons------------------*/
+
+  .button, button {
+    height: auto;
+    padding: 1.2rem 3.2rem;
+    font-size: 1.3rem;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-radius: 50px;
+}
+
+.button.button-primary, button.button-primary {
+    color: #233140;
+    background-color: transparent;
+    border: 2px solid #00adb4;
+}
+
+.button:hover{
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background:#233140;
+    color: #00adb4 ;
+    border:2px solid #fff;
+    padding: 1.2rem 3.2rem;
+    font-size: 1.5rem;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);   
+}
+
+
+
+
+
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+
+/*--------------------Buttons Media Query------------------*/
+
+@media (max-width: 480px){
+ .hireMe{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #233140;
+    height: auto;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    border-radius: 50px;
+}
+
+.hireMe:hover{
+    background:#233140;
+    color: #00adb4 ;
+    border:2px solid #fff;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding: .7rem .7rem !important;
+    font-size: .8rem;
+
+}
+    .logo{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:2%;
+  left:35%;
+
+}
+.hire-container{
+
+  padding-top: 30%;
+
+}
+}
+
+
+@media (max-width: 320px){
+  .typewrite{
+  width: 100%;
+  padding-top: 0;
+}
+
+
+
+  .intro-text{
+    padding: 0!important;
+    margin: 0!important;
+  }
+  #maincontent{
+    height: 400px;
+    margin:0;
+    padding-top:120px;
+
+  }
+  .intro-heading{
+    margin-top:-10px;
+    padding:0;
+  }
+  .hire-container{
+
+  padding-top: 40%;
+}
+}
+
+
+
+
+
+
+/*--------------------Section Media Query------------------*/
+@media (max-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
+
+}
+
+@media screen and (min-width: 1000px){
+  section{
+    padding: 0 0 100px;
+  }
+}
+
+@media screen and (min-width: 550px){
+  section{
+    padding:0 0 65px;
+  }
+}
+
+
+
+/*---------------------Type writer animation--------------------*/
+.typewrite{
+	width: 100%;
+	padding-top: 5%;
+}
+
+h3 .typewrite:hover{
+	color:#fff;
+}
+
+ h3 .wrap{
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: #fff;
+  }
+
+  .intro-text{
+    padding-bottom: 5%;
+  }
+
+/*---------------------Type writer Media Query--------------------*/
+@media only screen and (max-width : 768px) {
+
+  .intro-text{
+    padding: 20% 0 0 0;
+  }
+
+  .showcase-img2{
+    padding-top:5%;
+  }
+    .intro-heading{
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 480px){
+    .intro-text{
+    padding: 10% 0 0 0;
+  }
+   h3 .wrap{
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue",sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #fff;
+  }
+
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+      .intro-text{
+    padding: 0 0 0 0;
+  }
+  #maincontent{
+    height: 400px;
+    width: 100%;
+    margin:0;
+  }
+  .intro-heading{
+    margin-top: -20%;
+  }
+  .hire{
+    padding-bottom: 100px;
+  }
+}
+
+
+/*---------------------------NAV BAR ------------------------------*/
+
+.navbar .navbar-default .navbar-fixed-top .navbar-custom{
+  margin:0;
+  padding: 0;
+  background:transparent;
+}
+
+.navbar-custom .navbar-nav li.active a {
+    color: white;
+    border-bottom: 1px solid #00adb4!important;
+    background:transparent!important;
+}
+.navbar-brand.scrolled{
+  background-color: transparent;
+  transition: background-color 800ms;
+}
+
+.navbar-custom {
+  background: transparent;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  position: fixed;
+}
+.navbar-custom.scrolled{
+  background: transparent;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  position: fixed;
+  transition: background-color 500ms linear;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-brand:hover{
+  color: #00adb4;
+}
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color:#00adb4;
+}
+
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #00adb4;
+}
+
+.navbar-custom .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #18BC9C;
+  color: white;
+  border-color: #18BC9C;
+}
+
+.navbar-active{
+  background-color: transparent;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  position: fixed;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.Link.scrolled{
+  color:  #233140!important;
+  transition: color 500ms linear;
+}
+
+.logo.scrolled{
+  opacity: .5!important;
+   transition: color 500ms linear;
+}
+
+a.link:hover{
+  color: #233140!important;
+}
+a:hover{
+  color: #233140;
+  text-decoration: none;
+}
+
+/*-------------------Nav Bar Media Query------------*/
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+}
+
+
+
+/*---------------------------Header------------------------------*/
+
+header {
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 173, 180,.2),
+    rgba(0, 173, 180,.2)
+  ),url(http://res.cloudinary.com/alexscloud1234/image/upload/v1495769587/backgroundHeader_g6vgj2.png)50% 50% no-repeat
+  ;
+  color: white;
+  padding-top:0px;
+  height:100vh;
+  min-height:800px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*------------------Header Media Queries--------------*/
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 300px;
+    padding-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 640px){
+  header {
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 173, 180,.2),
+    rgba(0, 173, 180,.2)
+  ),url(http://res.cloudinary.com/alexscloud1234/image/upload/v1495769587/backgroundHeader_g6vgj2.png)50% 50% no-repeat
+  ;
+  color: white;
+  padding-top:0px;
+  height:100vh;
+  min-height:600px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  header .intro-text .name {
+    font-size: 2em;
+  }
+span{
+    font-size: 2em;
+  }
+.navbar-toggle{
+    background-color: rgba(0, 173, 180,.5);
+    border:1px solid #233140;
+  }
+.fa-bars{
+  color: #fff;
+}
+
+}
+
+
+/*---------------------------My Work Section---------------------------*/
+
+#work{
+  background:#fff;
+}
+.work-email{
+  color: #00adb4;
+}
+
+.work-showcase{
+	position: relative;
+	overflow: hidden;
+  padding:3%;
+}
+
+.work-showcase img.showcase-img{
+	position: relative;
+	width: 100%;
+}
+
+.pull-right{
+	float: right;
+}
+.pull-left{
+	float: left;
+}
+
+.work-showcase .showcase-content .showcase-title {
+    font-size: 1.45em;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-left: 3%;
+}
+
+.work-showcase .showcase-content .showcase-tags {
+    color: #00adb4;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+ ul{
+    margin-bottom: 2.5rem;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 0;
+    list-style: circle inside;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.work-showcase .showcase-content {
+    text-align: center;
+    margin: 2.0em 0;
+}
+
+.showcase-testimonial{
+  text-align: center;
+  padding: 3%;
+}
+
+.showcase-testimonial-avatar {
+    display: inline-block;
+    border-radius: 50%;
+    background: #eeeeee;
+    height: 50px;
+    overflow: hidden;
+    width: 50px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.showcase-testimonial blockquote {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    max-width: 30em;
+    margin: 1em auto 1.2em;
+    text-align: left;
+
+}
+
+
+.showcase-testimonial-name {
+    color: #00adb4;
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 0.6em;
+}
+
+.showcase-tags{
+  padding-left: 3%;
+}
+
+
+/*---------------------------My Work Section Media Queries---------------------------*/
+
+@media screen and (min-width: 750px){
+
+.work-showcase .showcase-content.text-left {
+    padding-right: 7.0rem;
+}
+.showcase-testimonial-avatar {
+    height: 70px;
+    width: 70px;
+}
+
+.work-showcase .showcase-content {
+    margin: 0;
+}
+.work-showcase{
+    padding: 80px 0 20px;
+}
+
+.work-showcase a.button {
+    margin: 10px 0 60px;
+}
+}
+
+@media screen and (min-width: 550px){
+
+.work-showcase .showcase-content {
+    text-align: left;
+}
+.showcase-testimonial-avatar {
+    margin-bottom: 0;
+}
+.showcase-testimonial blockquote {
+    font-size: 2.1rem;
+}
+}
+
+
+/*-------------------Portfolio---------------*/
+
+#portfolio img {
+    margin: 4.0rem 0 1.5rem;
+    border-radius: 6px;
+    width: 90%;
+    height: auto;
+}
+
+#portfolio p.description {
+    margin: 1.0rem 0;
+    padding-bottom: 20px;
+}
+
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+#portfolio{
+	background-color: #fff;
+  padding:5% 0 5% 0;
+}
+
+
+/*--------------Portfolio Media Query--------------*/
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }#portfolio img {
+    margin: 4.0rem 0 1.0rem;
+}
+}
+
+
+/*-------------------About Section----------------*/
+#about {
+  color: #233140;
+  border-color: #18BC9C;
+  font-weight: 700;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, .5),
+    rgba(0, 0, 0, .5)
+  ),url(http://res.cloudinary.com/alexscloud1234/image/upload/v1499805735/jamieIvy2_qgj2z5.png)50% 50% no-repeat
+  ;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  max-width: none;
+  background-attachment: fixed;
+  min-height: 600px;
+  padding:5% 0 3% 0;
+  display: inline-block;
+}
+
+h2.about-heading{
+  color: #fff;
+}
+
+.about-item{
+  padding:5%;
+  width: 300px;
+  height: auto;
+  min-height: 400px;
+}
+
+.about-block{
+padding:3%;
+width: 100%;
+height: auto;
+text-align: center;
+margin-top: 20px;
+}
+
+p.about-description {
+   padding:5%;
+   font-size: 1.5em;
+   text-align: left;
+   color:#fff;
+}
+.about-title{
+  color: #fff;
+}
+
+.lightbulb{
+color: #b6cb67;
+}
+
+.code{
+color: #2234f0;
+}
+
+.brush{
+color: #4abe5d;
+}
+/*---------------------About Media Queries---------------*/
+@media (max-width: 640px){
+#about {
+  color: #233140;
+  border-color: #18BC9C;
+  font-weight: 700;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 173, 180,.2),
+    rgba(0, 173, 180,.2)
+  ),url(http://res.cloudinary.com/alexscloud1234/image/upload/v1495778284/backgroundAbout_cpac5j.png)50% 50% no-repeat
+  ;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  max-width: none;
+  background-attachment: fixed;
+  min-height: 600px;
+  padding:5% 0 3% 0;
+  display: inline-block;
+}
+}
+
+/*---------------------Contact Form---------------------*/
+
+#contact{
+	background-color: #fff;
+  padding: 5% 0 3% 0;
+}
+
+#contactForm{
+  padding:5% 0 0 0;
+}
+
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #00adb4;
+  height: 100px;
+
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 1em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
+}
+.floating-label-form-group:not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #00adb4;
+}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.floating-label-form-group-with-focus label {
+  color: #00adb4 ;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #00adb4 ;
+}
+
+.btn-success .badge {
+  color: #18BC9C;
+  background-color: white;
+}
+
+.btn-success{
+	background-color: #00adb4;
+  margin-top: 5%;
+}
+
+.btn-success:hover{
+	background-color: #233140;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  color: #00adb4;
+}
+
+
+/*----------------Footer----------------------------*/
+
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #00adb4;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.phone{
+  color:#fff;
+}
+
+.email:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+/*----------------------Footer Media Queries---------------*/
+
+@media (max-width: 480px){
+.email{
+    text-align: center!important;
+  }
+  .phone{
+    text-align: center;
+  }
+}
+
+
+
+
